@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="container d-flex justify-content-center align-items-center"
+      style="min-height: 100vh"
+    >
+      <div class="row w-75 shadow-lg">
+        <!-- Left Section -->
+        <div
+          class="col-md-6 bg-warning d-flex justify-content-center align-items-center p-2"
+        >
+          <h2 class="text-dark">Create Account Now</h2>
+        </div>
+
+        <!-- Right Section (Form) -->
+        <div class="col-md-6 bg-dark text-white p-4">
+          <form class="d-flex flex-column">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Name</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email"><i class="fas fa-envelope"></i> Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="password"><i class="fas fa-lock"></i> Password</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword"
+                ><i class="fas fa-lock"></i> Confirm Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="confirmPassword"
+              />
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="rememberMe" />
+              <label class="form-check-label" for="rememberMe"
+                >Remember me</label
+              >
+            </div>
+            <button type="submit" class="btn btn-warning align-self-end">
+              Register
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
